@@ -1,0 +1,145 @@
+body {
+    background-image: url('img/background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div, button {
+ margin: 0px;
+ padding: 0px;
+}
+
+#popup {
+ background-color: rgba(0,0,0,.6);
+ border-radius: 10px;
+ font-family: Roboto, Arial, Helvetica, sans-serif;
+ max-width: 50%;
+ margin: 25px auto auto;
+ padding: 100px;
+}
+
+#logo {
+ font-size: 0;
+ text-align: center; 
+}
+
+#logo img { 
+ width: 240px;
+ height: auto;
+}
+
+#title {
+ color:  #00dd00;
+ font-size: 30px;
+ font-weight: bold;
+ margin-top: 20px;
+ text-align: center;
+}
+
+#control-bar {
+ background-color: #00dd00;
+ margin-top: 10px;
+ padding: 13px;
+ text-align: center;
+}
+
+#control-bar button {
+ display: inline-block;
+ font-size: 13px;
+ line-height: 1;
+ padding: 2px 4px;
+ margin-right: 7px;
+}
+
+#control-bar button:last-child {
+ margin-right: 0px;   
+}
+
+.scooter {
+ color: #fff;
+ font-family: Helvetica;
+ margin-top: 30px;
+}
+
+.scooter .square {
+ display: inline-block;
+ background-color: #fff;
+ width: 20px;
+ height: 20px;
+}
+
+.scooter .name {
+ display: inline-block;
+ font-size: 22px;
+ margin-left: 8px;
+}
+
+.distance {
+ position: relative;
+ padding-left: 22px;
+}
+
+.arrow {
+ position: absolute;
+ left: 0px;
+ top: 6px;
+ width: 14px;
+ height: 8px;
+}
+
+.arrow .start {
+ position: absolute;
+ background-color: #fff;
+ width: 2px;
+ height: 8px;
+ }
+
+.arrow .line {
+ position: absolute;
+ background-color: #fff;
+ left: 1px;
+ top: 3px;
+ width: 12px;
+ height: 2px;
+}
+
+.arrow .tip {
+ position: absolute;
+ right: 0px;
+ top: 1px;
+ border: solid white;
+ border-width: 0px 2px 2px 0;
+ padding: 2px;
+ transform: rotate(-45deg);
+ -webkit-transform: rotate(-45deg);
+}
+
+.distance {
+ margin-top: 7px; 
+}
+
+.distance-text {
+ margin-top: 7px; 
+}
+
+.power {
+ margin-top: 7px;
+}
+
+.gauge {
+ border-radius: 4px;
+ margin-top: 4px;
+ height: 30px; 
+}
+
+.gauge.medium {
+  background-color: #f5b453;
+}
+
+.gauge.high {
+  background-color: #1ec31e;
+}
+
+.gauge.low {
+  background-color: #be4141;
+}
